@@ -1,0 +1,25 @@
+.promo {
+    background: #F5F7FA;
+    padding: 96px 0px;
+}
+
+.promo__content {
+    gap: 111px;
+    display: flex;
+    align-items: center;
+}
+
+.promo__group p {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.button_primary-xl {
+    font-family: "Inter", sans-serif;
+    background: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}

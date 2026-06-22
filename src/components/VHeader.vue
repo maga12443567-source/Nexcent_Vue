@@ -1,0 +1,54 @@
+<script setup></script>
+
+<template>
+  <nav class="navbar navbar-expand-lg desktop-navigation">
+    <div class="container">
+      <a class="navbar-brand flex-grow-1" href="#"
+        ><img src="@/assets/img/logo.svg" alt="Nexcent" class="desktop-navigation__logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0 flex-grow-1 row-gap-2 column-gap-4 mt-4 mt-lg-0 align-items-center"
+        >
+          <li class="nav-item">
+            <a class="nav-link desktop-navigation__list-element_active" aria-current="page" href="#"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Feature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tesrimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+        </ul>
+        <div
+          class="d-flex gap-3 justify-content-center justify-content-lg-end flex-grow-1 flex-column flex-lg-row"
+        >
+          <button class="button_light-sm">Login</button>
+          <button class="button_primary-sm">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+</template>
